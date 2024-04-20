@@ -42,7 +42,7 @@ module.exports = {
  
     await message.reply({ body: `Durand ✅💯
 ━━━━━━━━━━━━━        
-LYBIJA
+${answer}
 ━━━━━━━━━━━━━
 Natsu Dragnir(Durand) `,
 });
