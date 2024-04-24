@@ -40,11 +40,11 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `Durand ✅💯
-━━━━━━━━━━━━━        
+    await message.reply({ body: `Durand 🔍✅💯
+━━━━━━━━━━━━━━━        
 ${answer}
-━━━━━━━━━━━━━
-Natsu Dragnir(Durand) `,
+━━━━━━━━━━━━━━━
+𝗡𝗮𝘁𝘀𝘂 𝗗𝗿𝗮𝗴𝗻𝗶𝗿(𝗗𝘂𝗿𝗮𝗻𝗱) `,
 });
 
    } catch (error) {
