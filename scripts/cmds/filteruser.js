@@ -31,11 +31,11 @@ module.exports = {
 			noMsg: "✅ | Không có thành viên nào có số tin nhắn nhỏ hơn %1"
 		},
 		en: {
-			needAdmin: "⚠️ | Please add the bot as a group admin to use this command",
-			confirm: "⚠️ | Are you sure you want to delete group members with less than %1 messages?\nReact to this message to confirm",
-			kickByBlock: "✅ | Successfully removed %1 members unavailable account",
-			kickByMsg: "✅ | Successfully removed %1 members with less than %2 messages",
-			kickError: "❌ | An error occurred and could not kick %1 members:\n%2",
+			needAdmin: "⚠️ | S'il te plaît ajoute moi aux admin pour utiliser toute mes commandes🔓",
+			confirm: "⚠️ | Etes vous sûre de vouloir retirer du groupe tout les menbres ayants moins de %1 messages?\nMet une réaction sur se message pour valider la suppression",
+			kickByBlock: "✅ | Succès de suppression de %1 membres du groupe",
+			kickByMsg: "✅ | Succès de suppression de %1 membres ayants moins de %2 messages",
+			kickError: "❌ | Erreur l'ors de la suppression du groupe de %1 members:\n%2",
 			noBlock: "✅ | There are no members who are locked acc",
 			noMsg: "✅ | There are no members with less than %1 messages"
 		}
