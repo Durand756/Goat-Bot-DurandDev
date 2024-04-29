@@ -4,7 +4,7 @@ module.exports = {
 	config: {
 		name: "daily",
 		version: "1.2",
-		author: "NTKhang",
+		author: "Durand",
 		countDown: 5,
 		role: 0,
 		description: {
@@ -46,8 +46,8 @@ module.exports = {
 			friday: "Friday",
 			saturday: "Saturday",
 			sunday: "Sunday",
-			alreadyReceived: "You have already received the gift",
-			received: "You have received %1 coin and %2 exp"
+			alreadyReceived: "Tu as déjà reçu ton cadeau du jour 🎁",
+			received: "Tu viens de recevoir %1 coin avec %2 exp"
 		}
 	},
 
@@ -56,8 +56,8 @@ module.exports = {
 		if (args[0] == "info") {
 			let msg = "";
 			for (let i = 1; i < 8; i++) {
-				const getCoin = Math.floor(reward.coin * (1 + 20 / 100) ** ((i == 0 ? 7 : i) - 1));
-				const getExp = Math.floor(reward.exp * (1 + 20 / 100) ** ((i == 0 ? 7 : i) - 1));
+				const getCoin = Math.floor(reward.coin * (1 + 50 / 100) ** ((i == 0 ? 7 : i) - 1));
+				const getExp = Math.floor(reward.exp * (1 + 50 / 100) ** ((i == 0 ? 7 : i) - 1));
 				const day = i == 7 ? getLang("sunday") :
 					i == 6 ? getLang("saturday") :
 						i == 5 ? getLang("friday") :
