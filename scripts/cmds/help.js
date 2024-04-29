@@ -174,7 +174,7 @@ module.exports = {
 		const prefix = getPrefix(threadID);
 		let sortHelp = threadData.settings.sortHelp || "name";
 		if (!["category", "name"].includes(sortHelp))
-			sortHelp = "name";
+			sortHelp = "category";
 		const commandName = (args[0] || "").toLowerCase();
 		let command = commands.get(commandName) || commands.get(aliases.get(commandName));
 		const aliasesData = threadData.data.aliases || {
