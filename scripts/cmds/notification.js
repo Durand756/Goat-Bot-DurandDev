@@ -32,7 +32,7 @@ module.exports = {
 		en: {
 			missingMessage: "S'il te plaît entre le message à envoyé dans tous les groupes 📤 groups",
 			notification: "𝙉𝙤𝙩𝙞𝙛𝙞𝙘𝙖𝙩𝙞𝙤𝙣 🛎",
-			sendingNotification: "Commençaient de l'envoie de la notification dans %1 groupes de discussion",
+			sendingNotification: "Commençement de l'envoie de la notification dans %1 groupes de discussion",
 			sentNotification: "✅ notification envoyé dans %1 groupes avec succès",
 			errorSendingNotification: "Erreur rencontrer dans %1 groupes:\n%2"
 		}
@@ -43,7 +43,7 @@ module.exports = {
 		if (!args[0])
 			return message.reply(getLang("missingMessage"));
 		const formSend = {
-			body: `${getLang("notification")}\n────────📨────────\n${args.join(" ")}`,
+			body: `${getLang("notification")}\n───────📨──────\n${args.join(" ")}`,
 			attachment: await getStreamsFromAttachment(
 				[
 					...event.attachments,
