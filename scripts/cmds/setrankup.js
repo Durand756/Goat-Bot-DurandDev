@@ -5,7 +5,7 @@ module.exports = {
 	config: {
 		name: "setrankup",
 		version: "1.2",
-		author: "NTKhang",
+		author: "Durand",
 		countDown: 0,
 		role: 0,
 		description: {
@@ -40,9 +40,9 @@ module.exports = {
 			changedAttachment: "Đã thêm %1 tệp đính kèm vào rankup thành công"
 		},
 		en: {
-			changedMessage: "Changed rankup message to: %1",
-			missingAttachment: "You must attach an image to configure the rankup image",
-			changedAttachment: "Successfully added %1 attachment to rankup"
+			changedMessage: "Changement du message de classement en: %1",
+			missingAttachment: "Vous devez joindre une image pour configurer l'image de classement",
+			changedAttachment: "Ajouté avec succès %1 attachement au classement"
 		}
 	},
 
