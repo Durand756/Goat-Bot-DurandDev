@@ -38,11 +38,11 @@ module.exports = {
 			sendByGroup: "\n- expédié depuis le groupe: %1\n- Avec ID: %2",
 			sendByUser: "\n- Envoyé par user",
 			content: "\n\nContent:\n─────────────────\n%1\n─────────────────\nRepond au message pour envoyé un message à l'utilisateur",
-			success: "Expédié ton message à 📨 %1 admin avec succès 👍!\n%2",
+			success: "Votre message a été envoyé 📨 %1 Administrateur réussit 👍!\n%2",
 			failed: "Erreur rencontrer l'ors de l'envoie de ton message à %1 admin\n%2\nCheck console for more details",
-			reply: "📍 Reply from admin %1:\n─────────────────\n%2\n─────────────────\nReply this message to continue send message to admin",
+			reply: "📍 Réponse de l'administrateur %1:\n─────────────────\n%2\n─────────────────\nRépondez à ce message pour continuer à envoyer un message à l'administrateur",
 			replySuccess: "Réponse envoyé à l'Administrateur avec succès!",
-			feedback: "📝 Réponse de l'utilisateur %1:\n- Utilisateur ID: %2%3\n\nContent:\n─────────────────\n%4\n─────────────────\nReply this message to send message to user",
+			feedback: "📝 Réponse de l'utilisateur %1:\n- Utilisateur ID: %2%3\n\nContent:\n─────────────────\n%4\n─────────────────\nRépondez à ce message pour envoyer un message à l'utilisateur",
 			replyUserSuccess: "Réponse envoyé à l'utilisateur avec succès🧾!",
 			noAdmin: "je n'ai pas d'administration pour le moment"
 		}
